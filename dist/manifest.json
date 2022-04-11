@@ -1,0 +1,16 @@
+{
+    "name": "sedapMantap",
+    "shortname": "SM lite",
+    "description": "Free Restaurant for you",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "blue",
+    "theme_color": "white",
+    "icons": [
+        {
+            "src": "/icons/icon.png",
+            "sizes":"900x900",
+            "type": "image/png"
+        }
+    ]
+}

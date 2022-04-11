@@ -1,0 +1,72 @@
+
+/*
+ * Detail Content
+ *
+ */
+
+.detail {
+    margin: 0 75px;
+}
+
+.Info{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.detailInfo {
+    border: 2px solid blue;
+    border-radius: 0.25rem;
+    padding: 0 10px;
+}
+
+.detailFicture {
+    border-radius: 0.25rem;
+    padding: 25px;
+}
+
+.detailFicture img {
+    padding: 25px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
+.Info2{
+    margin-top: 15px;
+}
+
+.OtherInfo {
+    border: 2px solid blue;
+    border-radius: .25rem;
+    padding: 0 25px;
+    background-color: cornsilk;
+}
+
+.OtherInfo p {
+    font-size: 15px;
+}
+
+.detailReview {
+    border: 2px solid blue;
+    border-radius: .25rem;
+    padding: 0 25px;
+    text-align:center;
+    margin-bottom: 20px;
+    background-color: cornsilk;
+}
+
+.customerReview {
+    margin-bottom: 20px;
+}
+
+.customerName {
+    margin: 0;
+    font-size: small;
+}
+
+.customerDate {
+    margin-top: 0;
+    font-size: small;
+}

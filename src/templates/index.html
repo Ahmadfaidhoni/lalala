@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#db0000"/>
+    <link rel="apple-touch-icon" href="/icons/icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Besley&display=swap" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+    <title>SedapMantap</title>
+</head>
+<body>
+    <a href="#main-content" class="skip-to-content">Skip to Content</a>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__title" >SedapMantap</div>
+        </div>
+        <button id="menu" class="header__menu" aria-label="menu">☰</button>
+        <nav id="drawer" class="nav">
+            <ul class="nav__list" tabindex="0">
+                <li class="nav__item"><a href="index.html">Home</a></li>
+                <li class="nav__item"><a href="#/favorite">Favorite</a></li>
+                <li class="nav__item"><a href="https://www.instagram.com/rz_ardn/" target="_blank" rel="noreferrer">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sebelum menerapkan image responsive -->
+    <!-- <div class="hero" style="background-image: url('images/heros/hero-image_4.jpg');">
+        <div class="hero__inner">
+          <h1 class="hero__title">SedapMantap</h1>
+        </div>
+        </div> -->
+
+        <!-- sesudah menerapkan image responsive -->
+        <!-- tapi error -->
+    <div class="hero">
+        <img srcset="./icons/images/heros/hero-image_4.jpg" alt="hero">
+        <div class="hero__inner">
+          <h1 class="hero__title">SedapMantap</h1>
+        </div>
+    </div>
+    <main id="main-content" tabindex="0"></main>
+
+    <footer>
+       Copyright &copy; 2021 - SedapMantap
+    </footer>
+</body>
+</html>
